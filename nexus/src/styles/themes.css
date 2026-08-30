@@ -1,0 +1,94 @@
+/* NEXUS theme system — CSS custom properties per theme.
+   Applied via `data-theme` attribute on <html>. */
+
+:root {
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --font-sans: "Segoe UI Variable", "Segoe UI", "Vazirmatn", "Noto Sans SC", sans-serif;
+}
+
+/* ---------- Windows 11 Dark (default) ---------- */
+[data-theme="win11-dark"] {
+  --bg-base: #0f1117;
+  --bg-elevated: rgba(255, 255, 255, 0.045);
+  --bg-panel: rgba(24, 26, 33, 0.72);
+  --bg-glass: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 255, 255, 0.09);
+  --text-primary: #f2f3f7;
+  --text-secondary: #a4a8b6;
+  --accent: #3f8cff;
+  --accent-soft: rgba(63, 140, 255, 0.16);
+  --success: #3fd67a;
+  --warning: #ffb648;
+  --danger: #ff5c6c;
+  --shadow-glow: 0 8px 40px rgba(63, 140, 255, 0.12);
+}
+
+/* ---------- Windows 11 Light ---------- */
+[data-theme="win11-light"] {
+  --bg-base: #f3f4f8;
+  --bg-elevated: rgba(0, 0, 0, 0.03);
+  --bg-panel: rgba(255, 255, 255, 0.75);
+  --bg-glass: rgba(255, 255, 255, 0.55);
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --text-primary: #14161c;
+  --text-secondary: #5b5f6b;
+  --accent: #2764e7;
+  --accent-soft: rgba(39, 100, 231, 0.12);
+  --success: #1c9a52;
+  --warning: #b76a12;
+  --danger: #d0333f;
+  --shadow-glow: 0 8px 40px rgba(39, 100, 231, 0.10);
+}
+
+/* ---------- Windows Default (classic system blue/grey) ---------- */
+[data-theme="win-default"] {
+  --bg-base: #eef1f5;
+  --bg-elevated: rgba(0, 0, 0, 0.035);
+  --bg-panel: rgba(255, 255, 255, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.65);
+  --border-subtle: rgba(0, 0, 0, 0.10);
+  --text-primary: #1b1e23;
+  --text-secondary: #52565f;
+  --accent: #0067c0;
+  --accent-soft: rgba(0, 103, 192, 0.12);
+  --success: #107c10;
+  --warning: #9d5d00;
+  --danger: #c42b1c;
+  --shadow-glow: 0 8px 36px rgba(0, 103, 192, 0.10);
+}
+
+/* ---------- Crimson (red) ---------- */
+[data-theme="crimson"] {
+  --bg-base: #12080a;
+  --bg-elevated: rgba(255, 255, 255, 0.045);
+  --bg-panel: rgba(32, 16, 19, 0.75);
+  --bg-glass: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(255, 100, 110, 0.14);
+  --text-primary: #f7ecec;
+  --text-secondary: #c9a4a8;
+  --accent: #ff4d5e;
+  --accent-soft: rgba(255, 77, 94, 0.16);
+  --success: #3fd67a;
+  --warning: #ffb648;
+  --danger: #ff2f45;
+  --shadow-glow: 0 8px 40px rgba(255, 77, 94, 0.16);
+}
+
+/* ---------- Azure (blue) ---------- */
+[data-theme="azure"] {
+  --bg-base: #070f1c;
+  --bg-elevated: rgba(255, 255, 255, 0.045);
+  --bg-panel: rgba(14, 24, 40, 0.75);
+  --bg-glass: rgba(255, 255, 255, 0.06);
+  --border-subtle: rgba(90, 170, 255, 0.16);
+  --text-primary: #eaf2ff;
+  --text-secondary: #9fb4d1;
+  --accent: #1fb2ff;
+  --accent-soft: rgba(31, 178, 255, 0.16);
+  --success: #3fd67a;
+  --warning: #ffb648;
+  --danger: #ff5c6c;
+  --shadow-glow: 0 8px 44px rgba(31, 178, 255, 0.18);
+}
